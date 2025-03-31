@@ -1,0 +1,1 @@
+# RUBOPP25120_FTO2502_GroupB1_Ruben-Opperman_SDF_Portfolio_Piece
