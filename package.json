@@ -1,0 +1,24 @@
+{
+  "name": "rubopp25120_fto2502_groupb1_ruben-opperman_sdf_portfolio_piece",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubenOpperman/RUBOPP25120_FTO2502_GroupB1_Ruben-Opperman_SDF_Portfolio_Piece.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RubenOpperman/RUBOPP25120_FTO2502_GroupB1_Ruben-Opperman_SDF_Portfolio_Piece/issues"
+  },
+  "homepage": "https://github.com/RubenOpperman/RUBOPP25120_FTO2502_GroupB1_Ruben-Opperman_SDF_Portfolio_Piece#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.17",
+    "tailwindcss": "^4.0.17"
+  }
+}
