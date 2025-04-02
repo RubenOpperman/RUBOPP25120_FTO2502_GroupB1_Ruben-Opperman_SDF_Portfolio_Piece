@@ -5,235 +5,422 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body class="bg-[#3F3D3D] px-10.5 py-1">
+  <body class="bg-[url('/src/imges/background.png')] px-10.5 py-1">
     <header>
+      <!---------------------------------------------------PROFILE------------------------------------------------------->
       <div class="flex gap-3 mb-4">
-        <section class="shrink-0 grow">
+        <section class="shrink-1">
           <img
-            class="sm:min-w-36 sm:min-h-36 min-w-24 min-h-24 rounded-3xl aspect-square"
+            class="max-w-full h-auto rounded-3xl aspect-square"
             src="imges/66e9586b-11cd-4b24-87ba-343406f4201c.jpg"
             alt="Ruben Opperman smiling at the camera"
           />
         </section>
+
         <section
           class="bg-white p-6 rounded-xl shadow-md min-h-36 justify-start"
         >
           <h1
-            class="font-bold text-[#000] mb-4 text-left text-lg sm:text-[1.375rem] font-inter"
+            class="font-bold text-[#000] mb-4 text-left text-lg sm:text-[1.375rem] font-inter justify-self-center"
           >
             Ruben Opperman
           </h1>
           <p
-            class="font-normal text-[#4a4a4a] text-sm sm:text-[16px] leading-[24px] font-inter"
+            class="font-normal text-[#4a4a4a] text-sm sm:text-[16px] leading-[24px] font-inter \"
           >
             I am a passionate and dedicated software developer with a strong
-            foundation in JavaScript and React.
+            foundation in JavaScript and React. With hands-on experience in
+            building dynamic and responsive web applications, I excel at
+            transforming complex requirements into intuitive user interfaces.
           </p>
         </section>
       </div>
     </header>
     <main>
-      <div class="grid grid-cols-1 gap-3">
-        <section class="bg-white p-[20px] shadow-2xl rounded-xl">
-          <h2 class="font-medium text-sm leading-6 font-inter mb-3">
-            Proficiency
-          </h2>
-          <div
-            class="flex font-bold text-[10px] text-[#000] text-left gap-1.5 mb-3"
-          >
-            <p>Beginner</p>
-            <p>Intermediate</p>
-            <p>Advance*</p>
-          </div>
+      <!---------------------------------------------------PROFICIENCY---------------------------------------------------->
 
-          <div class="">
+      <div class="">
+        <div class="grid grid-cols-1 gap-3 sm:flex">
+          <section class="bg-white p-[20px] shadow-2xl rounded-xl">
+            <h2 class="font-bold text-lg leading-6 font-inter mb-3">
+              Proficiency
+            </h2>
             <div
-              class="font-medium text-[10px] grid grid-cols-2 gap0 justify-self-start"
+              class="flex font-bold text-[14px] text-[#000] text-left gap-1.5 mb-3"
             >
-              <p>JavaScript</p>
-              <div
-                class="bg-[#4A8B70] h-[6px] w-[131px] rounded-[3px] my-auto"
-              ></div>
-
-              <p>React</p>
-              <div
-                class="bg-[#4A8B70] h-[6px] w-[14px] rounded-[3px] my-auto"
-              ></div>
-
-              <p>Node.js</p>
-              <div
-                class="bg-[#4A8B70] h-[6px] w-[110px] rounded-[3px] my-auto"
-              ></div>
-
-              <p>HTML + CSS</p>
-              <div
-                class="bg-[#4A8B70] h-[6px] w-[70px] rounded-[3px] my-auto"
-              ></div>
+              <p>Beginner</p>
+              <p>Intermediate</p>
+              <p>Advance*</p>
             </div>
-            <div></div>
-          </div>
-        </section>
 
-        <section class="bg-white p-3 rounded-xl">
-          <h2 class="mb-5 font-bold">Skills</h2>
-          <article
-            class="flex gap-2 flex-wrap text-[14px] font-medium tracking-[2px] font-inter"
-          >
-            <p class="bg-[#E7F0EC] py-2 px-3.5 rounded-[40px]">
-              Software Development
-            </p>
-            <p class="bg-[#ECF4F1] py-2 px-3.5 rounded-[40px]">Agile</p>
-            <p class="bg-[#ECF4F1] py-2 px-3.5 rounded-[40px]">UI Design</p>
-            <p class="bg-[#ECF4F1] py-2 px-3.5 rounded-[40px]">
-              Problem Solving
-            </p>
-            <p class="bg-[#ECF4F1] py-2 px-3.5 rounded-[40px]">
-              Git and version control
-            </p>
-            <p class="bg-[#ECF4F1] py-2 px-3.5 rounded-[40px]">
-              web development
-            </p>
-            <p class="bg-[#ECF4F1] py-2 px-3.5 rounded-[40px]">
-              team collaboration
-            </p>
-            <p class="bg-[#ECF4F1] py-2 px-3.5 rounded-[40px]">
-              funcitonal programming
-            </p>
-            <p class="bg-[#ECF4F1] py-2 px-3.5 rounded-[40px]">restfull apis</p>
-          </article>
-        </section>
+            <div>
+              <div
+                class="font-medium text-[10px] grid grid-cols-[auto_1fr] gap-x-5 items-center"
+              >
+                <p>JavaScript</p>
+                <div
+                  class="bg-[#4A8B70] h-[6px] w-[131px] rounded-[3px] my-auto"
+                ></div>
 
-        <section class="bg-white font-inter rounded-xl p-5">
-          <h2 class="text-lg font-bold mb-5">Projects</h2>
+                <p>React</p>
+                <div
+                  class="bg-[#4A8B70] h-[6px] w-[14px] rounded-[3px] my-auto"
+                ></div>
 
-          <div class="grid grid-cols-2 gap-5">
+                <p>Node.js</p>
+                <div
+                  class="bg-[#4A8B70] h-[6px] w-[110px] rounded-[3px] my-auto"
+                ></div>
+
+                <p>HTML + CSS</p>
+                <div
+                  class="bg-[#4A8B70] h-[6px] w-[70px] rounded-[3px] my-auto"
+                ></div>
+              </div>
+              <div></div>
+            </div>
+          </section>
+
+          <!---------------------------------------------------SKILLS------------------------------------------------------->
+
+          <section class="bg-white p-3 rounded-xl">
+            <h2 class="mb-5 font-bold">Skills</h2>
             <article
-              class="w-[240px] h-[360px] bg-[#2E6E5B] p-3 text-[#FFFFFF]"
+              class="flex gap-2 flex-wrap text-[14px] font-medium tracking-[2px] font-inter"
             >
-              <h3 class="mb-3">2025</h3>
+              <p class="bg-[#E7F0EC] py-2 px-3.5 rounded-[40px]">
+                Software Development
+              </p>
+              <p class="bg-[#ECF4F1] py-2 px-3.5 rounded-[40px]">Agile</p>
+              <p class="bg-[#ECF4F1] py-2 px-3.5 rounded-[40px]">UI Design</p>
+              <p class="bg-[#ECF4F1] py-2 px-3.5 rounded-[40px]">
+                Problem Solving
+              </p>
+              <p class="bg-[#ECF4F1] py-2 px-3.5 rounded-[40px]">
+                Git and version control
+              </p>
+              <p class="bg-[#ECF4F1] py-2 px-3.5 rounded-[40px]">
+                web development
+              </p>
+              <p class="bg-[#ECF4F1] py-2 px-3.5 rounded-[40px]">
+                team collaboration
+              </p>
+              <p class="bg-[#ECF4F1] py-2 px-3.5 rounded-[40px]">
+                funcitonal programming
+              </p>
+              <p class="bg-[#ECF4F1] py-2 px-3.5 rounded-[40px]">
+                restfull apis
+              </p>
+            </article>
+          </section>
+        </div>
+
+        <!---------------------------------------------------PROJECTS------------------------------------------------------->
+
+        <section class="bg-white font-inter rounded-xl p-5 mt-3 mb-3">
+          <h2 class="text-lg font-bold mb-3">Projects</h2>
+
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-5">
+            <article class="bg-[#2E6E5B] p-3 text-[#FFF] rounded-xl">
+              <div class="flex justify-between">
+                <h3 class="mb-3">2025</h3>
+                <img class="w-6 h-6" src="imges/Vector.png" alt="Heart" />
+              </div>
+
               <h4 class="font-bold text-lg font-inter mb-3">
                 Portfolio Website
               </h4>
-              <p class="text-sm font-bold font-inter leading-4.5">Brief:</p>
-              <p class="text-sm font-inter leading-4.5">
+              <p class="text-sm font-bold font-inter">Brief:</p>
+              <p class="text-sm font-inter mb-3">
                 Developed a personal portfolio website to showcase projects and
                 skills.
               </p>
-              <p class="text-sm font-bold font-inter leading-4.5">
-                Technologies:
-              </p>
-              <p>
+              <p class="text-sm font-bold font-inter">Technologies:</p>
+              <p class="text-sm font-inter mb-3">
                 Developed a personal portfolio website to showcase projects and
                 skills.
               </p>
-              <p class="text-sm font-bold font-inter leading-4.5">
-                Responsibilities:
-              </p>
-              <p>
+              <p class="text-sm font-bold font-inter">Responsibilities:</p>
+              <p class="text-sm font-inter mb-3">
                 Developed a personal portfolio website to showcase projects and
                 skills.
               </p>
             </article>
 
-            <article class="w-[240px] h-[360px] bg-[#ECF4F1] p-3 text-[#000]">
+            <article class="bg-[#ECF4F1] p-3 text-[#000] rounded-xl">
               <h3 class="mb-3">2025</h3>
               <h4 class="font-bold text-lg font-inter mb-3">
                 Portfolio Website
               </h4>
               <p class="text-sm font-bold font-inter leading-4.5">Brief:</p>
-              <p class="text-sm font-inter leading-4.5">
+              <p class="text-sm font-inter leading-4.5 mb-3">
                 Developed a personal portfolio website to showcase projects and
                 skills.
               </p>
               <p class="text-sm font-bold font-inter leading-4.5">
                 Technologies:
               </p>
-              <p>
+              <p class="text-sm font-inter mb-3">
                 Developed a personal portfolio website to showcase projects and
                 skills.
               </p>
               <p class="text-sm font-bold font-inter leading-4.5">
                 Responsibilities:
               </p>
-              <p>
+              <p class="text-sm font-inter mb-3">
                 Developed a personal portfolio website to showcase projects and
                 skills.
               </p>
             </article>
 
-            <article class="w-[240px] h-[360px] bg-[#ECF4F1] p-3 text-[#000]">
+            <article class="bg-[#ECF4F1] p-3 text-[#000] rounded-xl">
               <h3 class="mb-3">2025</h3>
               <h4 class="font-bold text-lg font-inter mb-3">
                 Portfolio Website
               </h4>
               <p class="text-sm font-bold font-inter leading-4.5">Brief:</p>
-              <p class="text-sm font-inter leading-4.5">
+              <p class="text-sm font-inter mb-3">
                 Developed a personal portfolio website to showcase projects and
                 skills.
               </p>
               <p class="text-sm font-bold font-inter leading-4.5">
                 Technologies:
               </p>
-              <p>
+              <p class="text-sm font-inter mb-3">
                 Developed a personal portfolio website to showcase projects and
                 skills.
               </p>
-              <p class="text-sm font-bold font-inter leading-4.5">
-                Responsibilities:
-              </p>
-              <p>
+              <p class="text-sm font-bold font-inter">Responsibilities:</p>
+              <p class="text-sm font-inter mb-3">
                 Developed a personal portfolio website to showcase projects and
                 skills.
               </p>
             </article>
 
-            <article class="w-[240px] h-[360px] bg-[#ECF4F1] p-3 text-[#000]">
+            <article class="bg-[#ECF4F1] p-3 text-[#000] rounded-xl">
               <h3 class="mb-3">2025</h3>
               <h4 class="font-bold text-lg font-inter mb-3">
                 Portfolio Website
               </h4>
               <p class="text-sm font-bold font-inter leading-4.5">Brief:</p>
-              <p class="text-sm font-inter leading-4.5">
+              <p class="text-sm font-inter mb-3">
                 Developed a personal portfolio website to showcase projects and
                 skills.
               </p>
               <p class="text-sm font-bold font-inter leading-4.5">
                 Technologies:
               </p>
-              <p>
+              <p class="text-sm font-inter mb-3">
                 Developed a personal portfolio website to showcase projects and
                 skills.
               </p>
               <p class="text-sm font-bold font-inter leading-4.5">
                 Responsibilities:
               </p>
-              <p>
+              <p class="text-sm font-inter mb-3">
                 Developed a personal portfolio website to showcase projects and
                 skills.
               </p>
             </article>
           </div>
         </section>
+        <div class="sm:flex sm:gap-3">
+          <!---------------------------------------------------EDUCATION------------------------------------------------------->
 
+          <section class="bg-white p-5 rounded-xl mb-3">
+            <h2 class="font-bold text-lg pb-3 mx-auto">Education</h2>
+
+            <article
+              class="bg-[#2e6e5b] grid grid-cols-2 grid-rows-[auto,auto] gap-5 p-3 rounded-xl mx-auto text-white"
+            >
+              <p class="text-sm font-normal font-inter leading-5">
+                Aug,2025-Mar,2026
+              </p>
+              <p
+                class="bg-[#D76239] font-[12px] rounded-[20px] w-25 h-7 justify-self-end m-2 text-white text-nowrap text-center"
+              >
+                Most recent
+              </p>
+              <div>
+                <p class="font-bold text-lg text-white mb-3">
+                  codeSpace Academy
+                </p>
+                <p class="text-sm font-normal font-inter leading-5">
+                  Software Development
+                </p>
+                <p class="text-sm font-normal font-inter leading-5">
+                  full-time
+                </p>
+              </div>
+              <div>
+                <ul class="list-disc list-outside">
+                  <li>
+                    Focused on React and JavaScript to build intuitive, dynamic
+                    web applications
+                  </li>
+                  <li>
+                    Collaborated with peers on real-world personal projects,
+                    refining teamwork and coding best practices
+                  </li>
+                  <li>
+                    Gained hands-on experience with cutting-edge web
+                    technologies and development tools
+                  </li>
+                </ul>
+              </div>
+            </article>
+            <article
+              class="bg-[#ECF4F1] grid grid-cols-2 grid-rows-[auto,auto] p-3 rounded-xl mx-auto text-[#4a4a4a] my-3"
+            >
+              <div class="">
+                <p class="mb-10 text-sm font-normal font-inter leading-5">
+                  sep,2025-Mar,2026
+                </p>
+
+                <p class="font-bold text-lg text-[#4a4a4a] mb-3">
+                  codeSpace Academy
+                </p>
+                <p class="text-sm font-normal font-inter leading-5">
+                  Software Development
+                </p>
+                <p class="text-sm font-normal font-inter leading-5">
+                  full-time
+                </p>
+              </div>
+              <div class="row-span-2">
+                <ul class="list-disc list-outside">
+                  <li>
+                    Focused on React and JavaScript to build intuitive, dynamic
+                    web applications
+                  </li>
+                  <li>
+                    Collaborated with peers on real-world personal projects,
+                    refining teamwork and coding best practices
+                  </li>
+                  <li>
+                    Gained hands-on experience with cutting-edge web
+                    technologies and development tools
+                  </li>
+                </ul>
+              </div>
+            </article>
+            <article
+              class="bg-[#ECF4F1] grid grid-cols-2 grid-rows-[auto,auto] p-3 rounded-xl mx-auto text-[#4a4a4a] my-3"
+            >
+              <div class="">
+                <p class="mb-10 text-sm font-normal font-inter leading-5">
+                  sep,2025-Mar,2026
+                </p>
+
+                <p class="font-bold text-lg text-[#000] mb-3">
+                  codeSpace Academy
+                </p>
+                <p class="text-sm font-normal font-inter leading-5">
+                  Software Development
+                </p>
+                <p class="text-sm font-normal font-inter leading-5">
+                  full-time
+                </p>
+              </div>
+              <div class="row-span-2">
+                <ul class="list-disc list-outside">
+                  <li>
+                    Focused on React and JavaScript to build intuitive, dynamic
+                    web applications
+                  </li>
+                  <li>
+                    Collaborated with peers on real-world personal projects,
+                    refining teamwork and coding best practices
+                  </li>
+                  <li>
+                    Gained hands-on experience with cutting-edge web
+                    technologies and development tools
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </section>
+
+          <!---------------------------------------------------TOOLS------------------------------------------------------->
+          <section class="bg-white p-5 rounded-xl mb-3">
+            <h2 class="font-bold text-xl mb-10 text-center">Tools</h2>
+
+            <div class="flex sm:flex-col gap-10 justify-around">
+              <div>
+                <span
+                  class="relative top-3 left-1/4 -translate-x-1/2 bg-black text-white px-4 py-2 rounded-xl text-sm"
+                >
+                  Design
+                </span>
+                <section
+                  class="bg-[#E7F0EC] grid grid-cols-2 p-5 gap-5 py-15 rounded-xl"
+                >
+                  <img src="imges/icons8-microsoft_1.png" alt="" />
+                  <img src="imges/logoFigma.png" alt="" />
+                  <img src="imges/icons8-google_1.png" alt="" />
+                </section>
+              </div>
+
+              <div>
+                <span
+                  class="relative top-3 left-1/5 -translate-x-1/2 bg-black text-white px-4 py-2 rounded-xl text-sm"
+                >
+                  Software
+                </span>
+
+                <section
+                  class="bg-[#E7F0EC] grid grid-cols-2 p-5 gap-5 py-15 rounded-xl"
+                >
+                  <img src="imges/icons8-npm_1.png" alt="" />
+                  <img src="imges/Vector_5.png" alt="" />
+                  <img src="imges/icons8-github_1.png" alt="" />
+                  <img src="imges/icons8-visual-studio_1.png" alt="" />
+                </section>
+              </div>
+
+              <div>
+                <span
+                  class="relative top-3 left-1/7 -translate-x-1/2 bg-black text-white px-4 py-2 rounded-xl text-sm"
+                >
+                  Languages
+                </span>
+
+                <section
+                  class="bg-[#E7F0EC] grid grid-cols-2 p-5 gap-5 py-15 rounded-xl"
+                >
+                  <img src="imges/css-logo.png" alt="" />
+                  <img src="imges/html-logo.png" alt="" />
+                  <img src="imges/js-logo.png" alt="" />
+                  <img src="imges/tailwind-logo.png" alt="" />
+                </section>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!---------------------------------------------------EXPERIENCE------------------------------------------------------->
         <section class="bg-white p-5 rounded-xl">
-          <h2 class="font-bold text-lg pb-3 mx-auto">Education</h2>
-
+          <h2 class="font-bold text-lg pb-3 mx-auto mb-3">Experience</h2>
           <article
-            class="w-[540px] bg-[#2e6e5b] grid grid-cols-2 grid-rows-[auto,auto] gap-5 p-3 rounded-xl mx-auto text-white"
+            class="bg-[#2e6e5b] grid grid-cols-2 grid-rows-[auto,auto] gap-5 p-3 rounded-xl mx-auto text-white"
           >
-            <p>Aug,2025-Mar,2026</p>
+            <p class="mb-10 text-sm font-normal font-inter leading-5">
+              Aug,2025-Mar,2026
+            </p>
             <p
-              class="bg-[#d9534f] font-[12px] rounded-[20px] w-25 h-7 justify-self-end m-2 text-white text-nowrap text-center"
+              class="bg-[#D76239] font-[12px] rounded-[20px] w-25 h-7 justify-self-end m-2 text-white text-nowrap text-center"
             >
               Most recent
             </p>
             <div>
-              <p>codeSpace Academy</p>
-              <p>Software Development</p>
-              <p>full-time</p>
+              <p class="font-bold text-lg text-white mb-3">codeSpace Academy</p>
+              <p class="text-sm font-normal font-inter leading-5">
+                Software Development
+              </p>
+              <p class="text-sm font-normal font-inter leading-5">full-time</p>
             </div>
             <div>
-              <ul>
+              <ul class="list-disc list-outside">
                 <li>
                   Focused on React and JavaScript to build intuitive, dynamic
                   web applications
@@ -250,17 +437,23 @@
             </div>
           </article>
           <article
-            class="w-[540px] bg-[#ECF4F1] grid grid-cols-2 grid-rows-[auto,auto] p-3 rounded-xl mx-auto text-[#4a4a4a] my-3"
+            class="bg-[#ECF4F1] grid grid-cols-2 grid-rows-[auto,auto] p-3 rounded-xl mx-auto text-[#4a4a4a] my-3"
           >
             <div class="">
-              <p class="mb-10">sep,2025-Mar,2026</p>
+              <p class="mb-10 text-sm font-normal font-inter leading-5">
+                sep,2025-Mar,2026
+              </p>
 
-              <p>codeSpace Academy</p>
-              <p>Software Development</p>
-              <p>full-time</p>
+              <p class="font-bold text-lg text-[#000] mb-3">
+                codeSpace Academy
+              </p>
+              <p class="text-sm font-normal font-inter leading-5">
+                Software Development
+              </p>
+              <p class="text-sm font-normal font-inter leading-5">full-time</p>
             </div>
             <div class="row-span-2">
-              <ul>
+              <ul class="list-disc list-outside">
                 <li>
                   Focused on React and JavaScript to build intuitive, dynamic
                   web applications
@@ -277,112 +470,23 @@
             </div>
           </article>
           <article
-            class="w-[540px] bg-[#ECF4F1] grid grid-cols-2 grid-rows-[auto,auto] p-3 rounded-xl mx-auto text-[#4a4a4a] my-3"
+            class="bg-[#ECF4F1] grid grid-cols-2 grid-rows-[auto,auto] p-3 rounded-xl mx-auto text-[#4a4a4a] my-3"
           >
             <div class="">
-              <p class="mb-10">sep,2025-Mar,2026</p>
+              <p class="mb-10 text-sm font-normal font-inter leading-5">
+                sep,2025-Mar,2026
+              </p>
 
-              <p>codeSpace Academy</p>
-              <p>Software Development</p>
-              <p>full-time</p>
+              <p class="font-bold text-lg text-[#000] mb-3">
+                codeSpace Academy
+              </p>
+              <p class="text-sm font-normal font-inter leading-5">
+                Software Development
+              </p>
+              <p class="text-sm font-normal font-inter leading-5">full-time</p>
             </div>
             <div class="row-span-2">
-              <ul>
-                <li>
-                  Focused on React and JavaScript to build intuitive, dynamic
-                  web applications
-                </li>
-                <li>
-                  Collaborated with peers on real-world personal projects,
-                  refining teamwork and coding best practices
-                </li>
-                <li>
-                  Gained hands-on experience with cutting-edge web technologies
-                  and development tools
-                </li>
-              </ul>
-            </div>
-          </article>
-        </section>
-        <section class="bg-white">
-          <h2>Tools</h2>
-
-          <article></article>
-          <article></article>
-          <article></article>
-        </section>
-        <section class="bg-white">
-          <h2>Experience</h2>
-          <article
-            class="w-[540px] bg-[#2e6e5b] grid grid-cols-2 grid-rows-[auto,auto] gap-5 p-3 rounded-xl mx-auto text-white"
-          >
-            <p>Aug,2025-Mar,2026</p>
-            <p
-              class="bg-[#d9534f] font-[12px] rounded-[20px] w-25 h-7 justify-self-end m-2 text-white text-nowrap text-center"
-            >
-              Most recent
-            </p>
-            <div>
-              <p>codeSpace Academy</p>
-              <p>Software Development</p>
-              <p>full-time</p>
-            </div>
-            <div>
-              <ul>
-                <li>
-                  Focused on React and JavaScript to build intuitive, dynamic
-                  web applications
-                </li>
-                <li>
-                  Collaborated with peers on real-world personal projects,
-                  refining teamwork and coding best practices
-                </li>
-                <li>
-                  Gained hands-on experience with cutting-edge web technologies
-                  and development tools
-                </li>
-              </ul>
-            </div>
-          </article>
-          <article
-            class="w-[540px] bg-[#ECF4F1] grid grid-cols-2 grid-rows-[auto,auto] p-3 rounded-xl mx-auto text-[#4a4a4a] my-3"
-          >
-            <div class="">
-              <p class="mb-10">sep,2025-Mar,2026</p>
-
-              <p>codeSpace Academy</p>
-              <p>Software Development</p>
-              <p>full-time</p>
-            </div>
-            <div class="row-span-2">
-              <ul>
-                <li>
-                  Focused on React and JavaScript to build intuitive, dynamic
-                  web applications
-                </li>
-                <li>
-                  Collaborated with peers on real-world personal projects,
-                  refining teamwork and coding best practices
-                </li>
-                <li>
-                  Gained hands-on experience with cutting-edge web technologies
-                  and development tools
-                </li>
-              </ul>
-            </div>
-          </article>
-          <article
-            class="w-[540px] bg-[#ECF4F1] grid grid-cols-2 grid-rows-[auto,auto] p-3 rounded-xl mx-auto text-[#4a4a4a] my-3"
-          >
-            <div class="">
-              <p class="mb-10">sep,2025-Mar,2026</p>
-
-              <p>codeSpace Academy</p>
-              <p>Software Development</p>
-              <p>full-time</p>
-            </div>
-            <div class="row-span-2">
-              <ul>
+              <ul class="list-disc list-outside">
                 <li>
                   Focused on React and JavaScript to build intuitive, dynamic
                   web applications
@@ -401,6 +505,8 @@
         </section>
       </div>
     </main>
+
+    <!---------------------------------------------------FOOTER------------------------------------------------------->
     <footer>
       <section
         class="bg-[#D76239] w-full my-5 text-white p-4 font-inter rounded-2xl justify-items-first"
